@@ -1,0 +1,14 @@
+{
+  "name": "desktop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "at3.html",
+  "scripts": {
+    
+  },
+  "keywords": [
+    "desktop"
+  ],
+  "author": "Bruno Amorim",
+  "license": "ISC"
+}

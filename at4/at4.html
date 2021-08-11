@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario04</title>
+    </head>
+    <body>
+        <form style="width: 800px; border: solid 2px; background-color: rgba(255, 255, 255, 0.589);" >
+            <fieldset>
+                <p><b>Manutenção do Orgão colegiado</b></p>
+                    <table border="1" align="center">
+                        <tr>
+                            <td  style="background-color: lightblue;">Unidade</td>
+                            <td style="background-color: lightgray;" >FACULDADE DE ENGENHARIA DE ILHA SOLTEIRA</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: lightblue;">Tipo de colegiado</td>
+                            <td style="background-color: lightgray;">Congregação</td>
+                        </tr>
+
+                    </table>
+               <h3 style=" background-color: lightgray; border:  solid 2px rgb(209, 202, 202);">Orgão Colegiado</h3>
+
+                <label for="name">Nome:</label>
+                <input type= "text"  size="70%" name="name" placeholder="CONGREGAÇÃO DA FACULDADE DE ILHA SOLTEIRA"/>
+                <br><br>
+                <label for="Sigla">Sigla:</label>
+                <input type="text" name="Sigla" placeholder="CFIS"/>
+                
+                <label style="padding-left: 380px;" for="status">Status</label>
+                <select>
+                    <option value="">Ativado</option>
+                    <option value="desativado">desativado</option>
+                </select>
+                <br>
+                
+
+                <br>
+                <label for="data">Data Ativação</label>
+                <input type="date" name="data" placeholder="15/10/2000"/> 
+
+                <label  style="padding-left: 275px;"  for="data">Data desativação</label>
+                <input type="date" name="data"> <br><br>
+
+                <label for="orgao">Orgão de origem:</label>
+                <input type="text" size="70%" name="orgao">
+                <input type="submit" value="Buscar"><br><br>
+
+                <label for="orgao">Orgão superior:</label>
+                <input type="text" size="70%" name="orgao">
+                <input type="submit" value="Buscar"><br><br>
+
+
+                
+                <label for="documentacao">Documentação</label>
+                <textarea name="documentacao" placeholder="Órgão criado com o objetivo de aprovar normas da unidade." id="documentacao" cols="50" rows="5"></textarea>
+
+
+                <br><br><br><br>
+                <input type="submit" value="Salvar" style="margin-left: 20px;">
+
+                
+                    <input style="display: inline-block; margin-left: 500px;" type="submit" value="Excluir">  
+                
+                  
+
+            
+            </fieldset>
+        </form>
+        
+     </body>
+
+</html>
